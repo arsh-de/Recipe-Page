@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+body {
+    background-color: hsl(330, 100%, 98%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Outfit;
+    height: auto;
+    color: hsl(30, 10%, 34%);
+}
+
+main {
+    background-color: white;
+    border-radius: 10px;
+    max-width: 600px;
+    padding: 30px;
+    margin: 10% 0%;
+}
+
+img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+h1 {
+    color: hsl(24, 5%, 18%);
+}
+
+h1,
+h2 {
+    font-family: Young Serif;
+    font-weight: 400;
+}
+
+p {
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+li {
+    padding: 10px;
+}
+
+.time {
+    background-color: hsl(330, 100%, 98%);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.time>ul>li::marker {
+    color: hsl(332, 51%, 32%);
+}
+
+h3 {
+    color: hsl(332, 51%, 32%);
+}
+
+.what {
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+}
+
+li::marker {
+    color: hsl(14, 45%, 36%);
+    font-weight: bold;
+
+}
+
+h2 {
+    color: hsl(14, 45%, 36%);
+}
+
+.how {
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+}
+
+td {
+    padding: 10px;
+}
+
+tbody>tr>td {
+    padding: 20px;
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+}
+
+tbody>tr>td:last-child {
+    color: hsl(14, 45%, 36%);
+    font-weight: bold;
+}
+
+tbody>tr:last-child>td {
+    border: none;
+}
